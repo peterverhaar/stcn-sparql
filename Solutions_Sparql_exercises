@@ -1,0 +1,75 @@
+
+Question 1.
+
+prefix schema: <http://schema.org/>
+prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+prefix kb: <http://data.bibliotheken.nl/def#>
+SELECT * 
+WHERE {
+  <http://data.bibliotheken.nl/id/nbt/p216567742> schema:name ?title .
+}
+
+
+
+Question 2.
+
+prefix schema: <http://schema.org/>
+prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+prefix kb: <http://data.bibliotheken.nl/def#>
+SELECT * 
+WHERE {
+  <http://data.bibliotheken.nl/id/nbt/p216567742> kb:bibliographicFormat ?format .
+}
+
+
+
+Question 3.
+
+prefix schema: <http://schema.org/>
+prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+prefix kb: <http://data.bibliotheken.nl/def#>
+SELECT *
+WHERE
+{ 
+?book schema:mainEntityOfPage ?mainentity . 
+?mainentity schema:mainEntity <http://data.bibliotheken.nl/id/nbt/p412692457> . 
+
+?book schema:name ?title .
+?book schema:inLanguage ?language .
+?book kb:hasCollationalFormula ?collation .
+}
+
+
+
+Question 4.
+
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX schema: <http://schema.org/>
+PREFIX kb: <http://data.bibliotheken.nl/def#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT *
+WHERE
+{ 
+?book schema:name ?title .
+?book schema:publication ?publ .
+?publ schema:startDate '1710'. 
+}
+
+
+Question 5. 
+
+PREFIX schema: <http://schema.org/>
+PREFIX kb: <http://data.bibliotheken.nl/def#>
+
+SELECT * WHERE {
+?book schema:mainEntityOfPage ?mainEntity .
+?mainEntity schema:isPartOf <http://data.bibliotheken.nl/id/dataset/stcn>  . 
+
+?book schema:author ?author_node . 
+?author_node schema:author <http://data.bibliotheken.nl/id/thes/p068421443> .
+
+?book schema:name ?title . 
+}
+
+
