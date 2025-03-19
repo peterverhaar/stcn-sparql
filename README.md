@@ -2,7 +2,9 @@
 
 **If you want to run one of these notebook on Google Colab, follow the step below**  
  
-3.	Open the following URL: [https://github.com/peterverhaar/dmt-2024/blob/main/Assignment3/Assignment3.ipynb](https://github.com/peterverhaar/dmt-2024/blob/main/Assignment3/Assignment3.ipynb) and click on "Download raw file" (in the top right corner)
+1. Navigate to the notebook you want to run in this github repository and click on "Download ra2w file".
+
+.	Open the following URL: [https://github.com/peterverhaar/dmt-2024/blob/main/Assignment3/Assignment3.ipynb](https://github.com/peterverhaar/dmt-2024/blob/main/Assignment3/Assignment3.ipynb) and click on "Download raw file" (in the top right corner)
 
 4.	Open the notebook named "Assignment3.ipynb" in a Code editor or in Jupyter Notebook, edit the value of the variable ‘my_text’. You need to replace the URL that is given with the URL leading to the “raw” version of your own text, which you found under step 2. Next, save the notebook. 
 
