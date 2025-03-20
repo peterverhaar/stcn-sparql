@@ -46,6 +46,6 @@ The notebook named `SocialNetworkAnalysis.ipynb` demands two files as input: one
 
 7.	If the notebook produces error messages, choose "Runtime" > "Restart session and run all"
 
-8.	
+8.	From the files section, download the file named "network.html" and open this file in a browser. 
  
 
