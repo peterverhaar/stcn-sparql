@@ -1,7 +1,7 @@
 
 
 
-## If you want to run one of these notebook on Google Colab, follow the step below**  
+## If you want to run one of these notebook on Google Colab, follow the steps below  
  
 1. Navigate to the notebook you want to run in this github repository and click on "Download raw file".
 
@@ -16,7 +16,8 @@
 6.	If the notebook produces error messages, choose "Runtime" > "Restart session and run all"
  
  
-## If you want to run the notebook using a local installation of Jupyter Notebook or Jupyter Lab, follow the steps below.**
+## If you want to run the notebook using a local installation of Jupyter Notebook or Jupyter Lab, follow the steps below.
+
 
 1. If you want to run these notebooks locally (i.e. on your own computer), you firstly need to make sure that Python is installed correctly on your computer. You can download the latest version of Python via the following address: https://www.python.org/downloads/. Once Python is installed, you can open the Terminal on Mac OS or the Command Prompt, via Start > All Programs > Accessories > Command Promt on Windows. Type the following: **pip install notebook**. After this, you can test whether the installation was successful by typing in: **jupyter notebook**. 
  
