@@ -61,7 +61,7 @@ def make_network(color_node_type1 = '#EE7733' ,color_node_type2 = '#007788' , ba
         G.nodes[node]['label'] = G.nodes[node]['title']
         G.nodes[node]['font']={"size": font_size}
         
-    net = Network(notebook=True ,  height="750px", width="100%" , bgcolor= background_color , cdn_resources='in_line' )
+    net = Network(notebook=True ,  height="750px", width="100%" , bgcolor= background_color  )
 
     if visualisation_alogorithm == 'repulsion':
         
